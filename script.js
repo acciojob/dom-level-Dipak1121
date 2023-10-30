@@ -1,8 +1,8 @@
 //your JS code here. If required.
-let elemet = document.getElementById("level");
+let element = document.getElementById("level");
 let level = 0;
 while(element.parentNode){
 	level++;
-	element = elemet.parentNode;
+	element = element.parentNode;
 }
-alert("The level of the element is: ${level}");
+alert(`The level of the element is: ${level}`);
